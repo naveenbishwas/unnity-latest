@@ -140,7 +140,7 @@ const Label = () => {
                 Empower your agency by outsourcing your clients to Unnity, where
                 our expert digital marketing team transforms brands and injects
                 digital DNA into their business. Focus on your core clients
-                while we help your clients shine online.
+                while we help your clients shine onlines.
               </h3>
               <Link
                 href={
@@ -813,7 +813,7 @@ const Label = () => {
           </div>
         </section>
 
-        <section className="section-nine" id="nine">
+        <section className="section-nine">
           <div className="section-nine-header">
             <h1>
               some call it work <br /> we call it <span id="blue">passion</span>
@@ -826,7 +826,10 @@ const Label = () => {
                 <div className="carousel__cell number-slide1 ">
                   <div className="video" id="video-one">
                     <video muted autoPlay={true} loop controls={false}>
-                      <source src="/bab-video.mp4" type="video/mp4" />
+                      <source
+                        src="https://cdn.shopify.com/videos/c/o/v/fa59bf45022543dcbc13d7c1a8507db9.mp4"
+                        type="video/mp4"
+                      />
                     </video>
                     <h3>Bablouie</h3>
                   </div>
@@ -834,7 +837,10 @@ const Label = () => {
                 <div className="carousel__cell number-slide2">
                   <div className="video" id="video-one">
                     <video muted autoPlay={true} loop controls={false}>
-                      <source src="/isu-video.mp4" type="video/mp4" />
+                      <source
+                        src="https://cdn.shopify.com/videos/c/o/v/4c8d3ce6a6a74f69962673ef4b09b7b7.mp4"
+                        type="video/mp4"
+                      />
                     </video>
                     <h3>ISU Fashion</h3>
                   </div>
@@ -842,7 +848,10 @@ const Label = () => {
                 <div className="carousel__cell number-slide3">
                   <div className="video" id="video-one">
                     <video muted autoPlay={true} loop controls={false}>
-                      <source src="/cupid4-video.mp4" type="video/mp4" />
+                      <source
+                        src="https://cdn.shopify.com/videos/c/o/v/188b2bd282724a5799fdcf3c926b6c8a.mp4"
+                        type="video/mp4"
+                      />
                     </video>
                     <h3>Cupid Clothing</h3>
                   </div>
@@ -850,7 +859,10 @@ const Label = () => {
                 <div className="carousel__cell number-slide4">
                   <div className="video" id="video-one">
                     <video muted autoPlay={true} loop controls={false}>
-                      <source src="/comforto-video.mp4" type="video/mp4" />
+                      <source
+                        src="https://cdn.shopify.com/videos/c/o/v/cee11c5cdf2c427fa27d7bf3d6e503ed.mp4"
+                        type="video/mp4"
+                      />
                     </video>
                     <h3>Comforto Bedding</h3>
                   </div>
@@ -858,7 +870,10 @@ const Label = () => {
                 <div className="carousel__cell number-slide5">
                   <div className="video" id="video-one">
                     <video muted autoPlay={true} loop controls={false}>
-                      <source src="/aurave-video.mp4" type="video/mp4" />
+                      <source
+                        src="https://cdn.shopify.com/videos/c/o/v/7e658c4efaf549ad98304be68f8d69dd.mp4"
+                        type="video/mp4"
+                      />
                     </video>
                     <h3>Aurave</h3>
                   </div>
@@ -866,7 +881,10 @@ const Label = () => {
                 <div className="carousel__cell number-slide6">
                   <div className="video" id="video-one">
                     <video muted autoPlay={true} loop controls={false}>
-                      <source src="/uberlyfe2-video.mp4" type="video/mp4" />
+                      <source
+                        src="https://cdn.shopify.com/videos/c/o/v/e5724ed332c742f6a2255e0218a12c1c.mp4"
+                        type="video/mp4"
+                      />
                     </video>
                     <h3>Uberlyfe</h3>
                   </div>

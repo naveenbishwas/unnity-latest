@@ -4,7 +4,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* font-family: "Lato"; */
 }
+
+/* @font-face {
+  font-family: "Lato";
+  src: url(/unnity-speed/public/Lato/Lato-Black.ttf);
+} */
 
 header {
   background-color: #23234d;
@@ -462,6 +468,19 @@ header {
   100% {
     top: 56%;
   }
+}
+
+#video-onee,
+#section-sixx {
+  padding: 0;
+}
+
+#section-sevenn {
+  padding: 5% 0;
+}
+
+#section-eightt {
+  padding: unset;
 }
 
 section.sub-form {
@@ -1197,7 +1216,7 @@ footer {
 
 .follow-us a span {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 10px;
 }
 
@@ -1659,7 +1678,7 @@ footer h4 {
     justify-content: center;
   }
 
-  section.section-three {
+  #section-three-dentist {
     flex-direction: column-reverse;
   }
 
@@ -1918,6 +1937,7 @@ footer h4 {
   .section-nine-header h1 {
     font-size: 1.5rem;
     letter-spacing: 0;
+    word-spacing: 2px;
   }
 
   .video video {
