@@ -131,6 +131,12 @@ const Label = () => {
                 ></Image>
               </Link>
             </div>
+
+            <Link id="mail-btn" href={"mailto:sayam.unnity@gmail.com"}>
+              <span className="container-eg-btn-3">
+                <button class="button button-7">Contact us</button>
+              </span>
+            </Link>
           </div>
 
           <div className="front-banner-content">
@@ -142,11 +148,7 @@ const Label = () => {
                 digital DNA into their business. Focus on your core clients
                 while we help your clients shine onlines.
               </h3>
-              <Link
-                href={
-                  "https://outlook.office365.com/book/BookaMeet@unnitymedia.com"
-                }
-              >
+              <Link href={"mailto:sayam.unnity@gmail.com"}>
                 <button>Get a custom Quote</button>
               </Link>
             </div>
@@ -913,11 +915,7 @@ const Label = () => {
               <h2>Our hourly rates start from $25/hour to $40/hour.</h2>
             </div>
             <div className="inquire-right">
-              <Link
-                href={
-                  "https://outlook.office365.com/book/BookaMeet@unnitymedia.com/"
-                }
-              >
+              <Link href={"mailto:sayam.unnity@gmail.com"}>
                 <button>Inquire Today</button>
               </Link>
             </div>
