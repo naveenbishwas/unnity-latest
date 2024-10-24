@@ -153,6 +153,15 @@ const Label = () => {
           </div>
         </section>
 
+        <section className="sayyam-video">
+          <video muted autoPlay={false} loop controls={true}>
+            <source
+              src="https://cdn.shopify.com/videos/c/o/v/c36afc50980c4cccbfabee01df7d73a1.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </section>
+
         <section className="special-projects">
           <div className="special-projects-df">
             <span>

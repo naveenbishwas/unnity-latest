@@ -112,7 +112,7 @@
   border-radius: 14px;
   width: 1000px;
   padding: 15px 20px;
-  margin-top: -3%;
+  margin-top: -2%;
   z-index: 1;
   background-color: #fff;
 }
@@ -626,6 +626,7 @@ svg#minus {
   height: 80%;
   position: relative;
   z-index: 2;
+  border-radius: 25px;
 }
 
 .white-float-one {
