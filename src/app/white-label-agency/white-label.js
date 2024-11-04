@@ -156,7 +156,13 @@ const Label = () => {
         </section>
 
         <section className="sayyam-video">
-          <video muted autoPlay={false} loop controls={true}>
+          <video
+            muted
+            autoPlay={false}
+            loop
+            controls={true}
+            poster="https://cdn.shopify.com/s/files/1/0854/0235/3940/files/Outsource_Your_Services_to_Experts.png?v=1730695193"
+          >
             <source
               src="https://cdn.shopify.com/videos/c/o/v/c36afc50980c4cccbfabee01df7d73a1.mp4"
               type="video/mp4"
