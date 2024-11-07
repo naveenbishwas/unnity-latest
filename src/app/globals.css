@@ -7,11 +7,6 @@
   /* font-family: "Lato"; */
 }
 
-/* @font-face {
-  font-family: "Lato";
-  src: url(/unnity-speed/public/Lato/Lato-Black.ttf);
-} */
-
 header {
   background-color: #23234d;
   display: flex;
@@ -1703,6 +1698,10 @@ footer h4 {
     color: #e6e3e3;
     max-width: 99%;
     font-size: 13px;
+  }
+
+  .section-three {
+    flex-direction: column-reverse;
   }
 
   .section-four-top,
